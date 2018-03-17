@@ -1,0 +1,17 @@
+#altura-banner{
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 30%;
+}
+
+#titulo-banner{
+    color: black;
+    background-color: aquamarine;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+#texto-banner{
+    color: black;
+    background-color: aquamarine;
+}

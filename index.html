@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Landing Page</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Importa as fontes para este projeto-->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    
+    <!-- Importa o CSS utilizado neste projeto -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand navbar-light bg-light fixed-top">
+        <!-- A tag nav recebe 5 classes diferentes do bootstrap que determina tamanho, cor, cor de fundo e se será fixa no topo -->
+        <div class="container">
+            <!-- a classe container deixa seu layout alinhado corretamente na página. Com margens laterais ou não (container-fluid) -->
+            <!--o container é um componente base, e pode ser usado mais de 1x -->
+            
+            
+            <div>
+                <ul class="navbar-nav ml-auto"> 
+                    <!-- a tag ul que seria lista não ordenada, possui 2 classes de fazer parte da barra de navegação e ter um margin left auto que seria o ml-auto-->
+                    <li class="nav-item"> <!-- li é a tag que referencia aos tópicos de uma lista, e a classe nav-item é mostrando que este item faz parte da navegação -->
+                        <a class="nav-link" href="#">Entrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pais e Professores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--termina a barra de navegação -->
+    
+    <!-- Header -->
+    <header class="intro-header">
+        <div class="container"> <!-- aqui a classe container aparece novamente --> 
+            <div id="altura-banner">
+                <div class="row">
+                    <div class="col">
+                        <h1 id="titulo-banner">Eduque com o Flip</h1>
+                        <p id="texto-banner">O Flip é uma plataforma para transforma a forma de ensino</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- primeiro bloco de texto e imagem  -->
+        <section class="content-01">
+            <div class="container">
+                <div class="row"> <!--é colocado a tag row, pois neste caso usaremos o grid de colunas, então as div que vem a seguida estarão na mesma linha
+                    mas em colunas paralelas -->
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="infancia.png" >
+                            <div class="card-body">
+                                <h5 class="card-title">Jogos</h5>
+                                <p class="card-text">Tem jogos para ensinar historia, geografia, artes e linguas</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="vi.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Videos</h5>
+                                <p class="card-text">Videos para professor e alunos se atualizarem com as melhores didaticas.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="acc.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Acessibilidade</h5>
+                                <p class="card-text">No Flip você também pode ter a acessibilidade digital.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- termina o primeiro bloco de texto e imagem -->
+            
+            <!-- segundo bloco de texto e imagem-->
+            <section class="content-02">
+                <div class="container">
+                    <div class="row">
+                        <form class="form-inline m-auto">
+                            <div class="form-group mb-2 ">
+                                    <label for="inputPassword2" class="sr-only">Password</label>
+                                    <input type="inputemail" class="form-control" id="inputPassword2" placeholder="Email">
+                            </div>
+                            <div class="form-group mx-sm-3 mb-2">
+                                <label for="inputPassword2" class="sr-only">Password</label>
+                                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2">Inscreva-se</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- termina o bloco de txt e imagem -->
+            
+            <!-- banner do rodapé -->
+            <section class="banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <ul class="list-inline banner-social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn btn-link">
+                                        <i class="fa fa-facebook fa-fw"></i>
+                                        <span class="network-name">facebook
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn btn-link btn-md">
+                                        <i class="fa fa-twitter fa-fw"></i>
+                                        <span class="network-name">Twitter</span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn btn-link btn-md">
+                                        <i class="fa fa-linkedin fa-fw"></i>
+                                        <span class="network-name">LinkedIn</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- final do rodapé -->
+            
+        </body>
+        
+        </html>
